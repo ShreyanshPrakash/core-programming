@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "CompilesJS",
+    "sourceMap": true
+  },
+  "include": [
+    "Algorithms/*",
+    "DataStructures/*",
+    "ProblemSolving/*"
+  ],
+  "exclude": [
+    "node_modules/*"
+  ]
+}
