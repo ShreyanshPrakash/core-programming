@@ -3,4 +3,4 @@
 if( process.env.NODE_ENVIRONMENT === 'production' )
     export * from './build/index.js';
 else
-    export * from './index.ts';
+    export * from './src/index.ts';
